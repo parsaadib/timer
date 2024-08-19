@@ -1,0 +1,43 @@
+body{
+    direction: rtl;
+    background-color: #7400ff96;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:50px 0px 0px 0px;
+    min-height: 227px;
+    min-width: 500px;
+    justify-content: center;
+    border: 2px solid white;
+   
+}
+h1 {
+    color: white;
+    font-size: 55px;
+}
+
+#timer {
+    margin: 0px 0px 47px 0px;
+}
+
+#timer > span {
+    font-size: 51px;
+}
+.all > button {
+    height: 91px;
+    width: 156px;
+    background-color: #00bcbc;
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+  }
+
+
+
+
